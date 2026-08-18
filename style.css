@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+body{
+  background-color: #0F1115;
+  color: white;
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 64px;
+  background-color: #0c0c0f;
+}
+
+.logo{
+  display: flex;
+}
+
+#img-logo{
+  height: 48px;
+  width: 120px;
+}
+
+.menu{
+  display: flex;
+}
+
+.menu{
+  list-style: none;
+}
+
+.menu a{
+  display: inline-block;
+  text-decoration: none;
+  color: white;;
+  user-select: none;
+  margin: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.menu a:hover{
+  transform: scale(1.1);
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.container-text{
+  margin: 10px;
+}
+
+.gioithieunole-card{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c0c0f;
+  width: 450px;
+  height: 120px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+.gioithieunole-card img{
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+.gioithieunole-card p{
+  color: rgb(138, 133, 133);
+}
+
+.gioithieunole-card audio{
+  margin: 10px;
+  width: 240px;
+  height: 32px;
+}
+
+.gioithieu{
+  margin: 10px;
+  text-align: start;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+#chanbomadi{
+  margin-bottom: 20px;
+}
+
+.qcthumb img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.muanloday{
+  margin-bottom: 20px;
+}
+
+.goivips h2{
+  margin: 20px;
+}
+.rank-card{
+  height: 167px;
+  padding: 40px;
+  overflow: hidden;
+  background-color: #0c0c0f;
+  border-radius: 10px;
+}
+.name p{
+  font-family: "Anton", sans-serif;
+  color: rgb(255, 200, 98);
+  font-size: 35px;
+}
+.listtinhnang{
+  margin: 12px;
+  color: grey;
+}
+
+.btnstyle1{
+  background-color: rgb(255, 200, 98);
+  border: transparent;
+  padding: 8px;
+  border-radius: 3px 3px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  margin: 10px;
+}
+
+.btnstyle1:hover{
+  transform: scale(1.05);
+  background-color: rgb(255, 192, 76);
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.ranks-card {
+  margin: 0;
+}
+
+#comments{
+  display: flex;
+  margin: 10px;
+  justify-content: start;
+}
+
+.comment-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comment-card img{
+  margin: 0px 20px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.comment-card{
+  border-radius: 10px;
+  background-color: #0c0c0f;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  max-width: 650px;
+  min-height: 100px;
+  margin: 10px 0 10px 12px;
+}
+
+.comment-header{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.comment-header span{
+  color: #666;
+}
+
+.comment-content p{
+  color: #d3d3d3;
+}
+
+.comment-content{
+  text-align: start;
+  margin: 10px;
+}
+
+.hinhanhsudungsp img{
+  width: 100%;
+  max-width: 200px;
+}
+
+.product-card{
+  margin: 10px;
+  background-color: #0c0c0f;
+  width: 200px;
+  height: 190px;
+  padding: 18px;
+  border-radius: 10px;
+}
+
+.product-card img{
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.product-info p{
+  color: #666;
+  margin: 8px;
+}
+
+.btnstyle2{
+  border: transparent;
+  padding: 5px;
+  background-color:rgb(255, 192, 76);
+  border-radius: 4px;
+  cursor: pointer;
+  color: black;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
