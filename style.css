@@ -105,6 +105,12 @@ footer{
   background-color: #000;
 }
 
+footer img{
+  width: 100%;
+  max-width: 476px;
+  height: 120px;
+}
+
 #chanbomadi{
   margin-bottom: 20px;
 }
